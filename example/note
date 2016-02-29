@@ -1,0 +1,3 @@
+python scrawlMain.py --in=headin.csv
+
+会产生每个小分子的数据文件：id.csv，合并过滤称为最终结果文件：result.csv 
