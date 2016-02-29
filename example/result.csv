@@ -1,0 +1,13 @@
+datarecordID,hmsDatasetID,recordedPlate,recordedWell,controlType,protein_ppCenterSpecificID,protein_ppCenterSampleID,protein_ppName,smallmolecule_smSalt,smallmolecule_smCenterCompoundID,smallmolecule_smLincsID,smallmolecule_smCenterSampleID,smallmolecule_smName,datapointName,datapointUnit,datapointValue
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,percentControl,,100
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,assayCompoundConcentration,,1
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,concUnit,,uM
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,percentControl,,99
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,assayCompoundConcentration,,10
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,concUnit,,uM
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,percentControl,,100
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,assayCompoundConcentration,,1
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,concUnit,,uM
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,percentControl,,99
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,assayCompoundConcentration,,10
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,concUnit,,uM
