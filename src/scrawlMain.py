@@ -10,6 +10,7 @@ def getOptions():
     parser = argparse.ArgumentParser(description='python *.py [option]"')
     requiredgroup = parser.add_argument_group('required arguments')
     requiredgroup.add_argument('--in', dest='input', help='input file', default='', required=True)
+    requiredgroup.add_argument('--str', dest='str', help='all structure file to embide the smiles', default='', required=True)
 
     args = parser.parse_args()
 
@@ -20,8 +21,14 @@ def getOptions():
 ##########################################           
 def main():
     options = getOptions()
-    
+    structure = {}
     data = []
+    with open(options.str) as fin:
+        fcsv = csv.reader(fin)
+        for eachline in fcsv:
+            if fcsv.line_num == 1:
+                continue
+            structure[eachline[0]] = eachline[12] 
     
     with open(options.input) as fin:
         fcsv = csv.reader(fin)
@@ -45,10 +52,12 @@ def main():
                             title = eachline
                             continue
                         if eachline[5] == '200122':
+                            smid = "%s-%s" % (eachline[9], eachline[8])
+                            eachline.append(structure[smid])
                             data.append(eachline)
             except:
                 print 'error read file %s' % dataset
-                
+    title.append('smiles')
     with open('result.csv', 'wb') as csvout:
         csvwriter = csv.writer(csvout, delimiter=',',quotechar='"', quoting=csv.QUOTE_MINIMAL)
         csvwriter.writerow(title)
