@@ -1,3 +1,6 @@
 python scrawlMain.py --in=headin.csv
 
 会产生每个小分子的数据文件：id.csv，合并过滤称为最终结果文件：result.csv 
+
+添加了smiles列的命令：
+python scrawlMain.py --in=headin.csv --str=small_molecule_20160229135900.csv 

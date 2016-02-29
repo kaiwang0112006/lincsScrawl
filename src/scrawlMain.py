@@ -37,7 +37,7 @@ def main():
                 continue
             link = eachline[-1]
             id = eachline[-1].split('/')[-2]
-            id = '20211'
+
             cmd = "curl -H \"Accept: text/csv\" http://lincs.hms.harvard.edu/db/api/v1/datasetdata/%s/ > %s.csv" % (id,id)
             dataset = "%s.csv" % id
             
