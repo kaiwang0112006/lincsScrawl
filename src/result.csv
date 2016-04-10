@@ -1,0 +1,13 @@
+datarecordID,hmsDatasetID,recordedPlate,recordedWell,controlType,protein_ppCenterSpecificID,protein_ppCenterSampleID,protein_ppName,smallmolecule_smSalt,smallmolecule_smCenterCompoundID,smallmolecule_smLincsID,smallmolecule_smCenterSampleID,smallmolecule_smName,datapointName,datapointUnit,datapointValue,smiles
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,percentControl,,100,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,assayCompoundConcentration,,1,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,concUnit,,uM,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,percentControl,,99,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,assayCompoundConcentration,,10,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,concUnit,,uM,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,percentControl,,100,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,assayCompoundConcentration,,1,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142206,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,concUnit,,uM,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,percentControl,,99,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,assayCompoundConcentration,,10,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
+142661,20211,,,,200122,,EGFR,101,10356,LSM-6712,1,5z-7-oxozeaenol,concUnit,,uM,C[C@H]1C/C=C\C(=O)[C@H]([C@H](C/C=C/C2=CC(=CC(=C2C(=O)O1)O)OC)O)O
